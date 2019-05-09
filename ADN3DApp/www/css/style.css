@@ -1,0 +1,466 @@
+/* Empty. Add your own CSS if you like */
+
+/* Style video */
+.video {
+	text-align: center;
+}
+
+/* Style h1 */
+h1 {
+	font-family: arial black;
+	font-size: 25px;
+	color: #0E4237;
+  background-color: #ccd9ff;
+  opacity: 0.6;
+	color: #05B26B;
+	text-align: center;
+}
+
+/* Style h2 */
+h2 {
+	font-family: elephant;
+	font-size: 45px;
+	color: #3A8284;
+  background-color: #ccd9ff;
+  opacity: 0.9;
+	color: green;
+  text-align: center;
+}
+
+ion-view {
+	background-image: url(https://www.mascolab.com/carrito/wp-content/uploads/2017/03/dna-1811955-2.jpg);
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+body {
+  background: black;
+}
+
+/* Style ADN */
+#all {
+  margin: auto;
+  position: relative;
+  width: 150px;
+  height: 680px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  transform: rotateZ(90deg);
+  perspective: 5000px;
+}
+
+.element:before {
+  content: "";
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-left: -10px;
+  background: black;
+  transform: rotateX(45deg);
+}
+
+.element:after {
+  content: "";
+  position: relative;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  margin-left: 150px;
+  background: black;
+  transform: rotateX(45deg);
+}
+
+.element {
+  border: 1px dashed #80FF00;
+  opacity: 1;
+  height: 1px;
+  margin: 10px auto;
+  transform: rotateY(0deg);
+  animation: flip 2s infinite linear;
+  transform-style: preserve-3d;
+}
+
+@keyframes flip {
+  0% {
+    transform: rotateY(0deg);
+  }
+  100% {
+    transform: rotateY(360deg);
+  }
+}
+.element:nth-child(1) {
+  animation-delay: 50ms;
+}
+
+.element:nth-child(2) {
+  animation-delay: 100ms;
+}
+
+.element:nth-child(3) {
+  animation-delay: 150ms;
+}
+
+.element:nth-child(4) {
+  animation-delay: 200ms;
+}
+
+.element:nth-child(5) {
+  animation-delay: 250ms;
+}
+
+.element:nth-child(6) {
+  animation-delay: 300ms;
+}
+
+.element:nth-child(7) {
+  animation-delay: 350ms;
+}
+
+.element:nth-child(8) {
+  animation-delay: 400ms;
+}
+
+.element:nth-child(9) {
+  animation-delay: 450ms;
+}
+
+.element:nth-child(10) {
+  animation-delay: 500ms;
+}
+
+.element:nth-child(11) {
+  animation-delay: 550ms;
+}
+
+.element:nth-child(12) {
+  animation-delay: 600ms;
+}
+
+.element:nth-child(13) {
+  animation-delay: 650ms;
+}
+
+.element:nth-child(14) {
+  animation-delay: 700ms;
+}
+
+.element:nth-child(15) {
+  animation-delay: 750ms;
+}
+
+.element:nth-child(16) {
+  animation-delay: 800ms;
+}
+
+.element:nth-child(17) {
+  animation-delay: 850ms;
+}
+
+.element:nth-child(18) {
+  animation-delay: 900ms;
+}
+
+.element:nth-child(19) {
+  animation-delay: 950ms;
+}
+
+.element:nth-child(20) {
+  animation-delay: 1000ms;
+}
+
+.element:nth-child(21) {
+  animation-delay: 1050ms;
+}
+
+.element:nth-child(22) {
+  animation-delay: 1100ms;
+}
+
+.element:nth-child(23) {
+  animation-delay: 1150ms;
+}
+
+.element:nth-child(24) {
+  animation-delay: 1200ms;
+}
+
+.element:nth-child(25) {
+  animation-delay: 1250ms;
+}
+
+.element:nth-child(26) {
+  animation-delay: 1300ms;
+}
+
+.element:nth-child(27) {
+  animation-delay: 1350ms;
+}
+
+.element:nth-child(28) {
+  animation-delay: 1400ms;
+}
+
+.element:nth-child(29) {
+  animation-delay: 1450ms;
+}
+
+.element:nth-child(30) {
+  animation-delay: 1500ms;
+}
+
+.element:nth-child(31) {
+  animation-delay: 1550ms;
+}
+
+.element:nth-child(32) {
+  animation-delay: 1600ms;
+}
+
+.element:nth-child(33) {
+  animation-delay: 1650ms;
+}
+
+.element:nth-child(34) {
+  animation-delay: 1700ms;
+}
+
+.element:nth-child(35) {
+  animation-delay: 1750ms;
+}
+
+.element:nth-child(36) {
+  animation-delay: 1800ms;
+}
+
+.element:nth-child(37) {
+  animation-delay: 1850ms;
+}
+
+.element:nth-child(38) {
+  animation-delay: 1900ms;
+}
+
+.element:nth-child(39) {
+  animation-delay: 1950ms;
+}
+
+.element:nth-child(40) {
+  animation-delay: 2000ms;
+}
+
+.element:nth-child(41) {
+  animation-delay: 2050ms;
+}
+
+.element:nth-child(42) {
+  animation-delay: 2100ms;
+}
+
+.element:nth-child(43) {
+  animation-delay: 2150ms;
+}
+
+.element:nth-child(44) {
+  animation-delay: 2200ms;
+}
+
+.element:nth-child(45) {
+  animation-delay: 2250ms;
+}
+
+.element:nth-child(46) {
+  animation-delay: 2300ms;
+}
+
+.element:nth-child(47) {
+  animation-delay: 2350ms;
+}
+
+.element:nth-child(48) {
+  animation-delay: 2400ms;
+}
+
+.element:nth-child(49) {
+  animation-delay: 2450ms;
+}
+
+.element:nth-child(50) {
+  animation-delay: 2500ms;
+}
+
+.element:nth-child(51) {
+  animation-delay: 2550ms;
+}
+
+.element:nth-child(52) {
+  animation-delay: 2600ms;
+}
+
+.element:nth-child(53) {
+  animation-delay: 2650ms;
+}
+
+.element:nth-child(54) {
+  animation-delay: 2700ms;
+}
+
+.element:nth-child(55) {
+  animation-delay: 2750ms;
+}
+
+.element:nth-child(56) {
+  animation-delay: 2800ms;
+}
+
+.element:nth-child(57) {
+  animation-delay: 2850ms;
+}
+
+/* Style Infografía */
+.repro img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 400px;
+  width: 400px;
+}
+
+.repro2 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+  width: 400px;
+}
+
+/* Style Tabla Nutricional */
+h3 {
+	font-family: arial black;
+	font-size: 15px;
+	color: black;
+	text-align: center;
+}
+
+.span {
+	font-family: arial;
+	font-size: 11px;
+	color: black;
+	text-align: center;
+}
+
+.imm {
+  width: 250px;
+  height: 150px;
+  text-align: center;
+}
+.nutrifacts-html {
+	background-color: skyblue;
+	padding:8px;
+	font-family: "Helvetica";
+	font-size: 12px;
+	display: block;
+	margin: auto;
+	border: 2px solid white;
+	width: 250px;
+	margin-top:2px;
+}
+
+.nutrifacts-html table {
+	background-color: skyblue;
+ 	border-collapse: collapse;
+ 	width:100%;
+}
+
+.nutrifacts-html td {
+  border-top: 1px solid white;
+}
+
+.nutrifacts-html h2 {
+  margin:0;
+  font-size:29px;
+}
+
+.separator {
+  height:5px;
+  background-color: white;
+  margin-top:3px;
+}
+
+.align-text-right {
+  text-align:right;
+}
+
+.info {
+  border-top:1px solid white;
+  padding: 2px;
+  font-family: arial;
+  font-size:10px;
+  color: black;
+}
+
+/* Style Juego */
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+body {
+  font: 18px elephant;
+  color: #098F58;
+  background: #95E3C3;
+}
+
+#picbox {
+  margin: 0px auto;
+  width: 600px;
+}
+
+#boxcard {
+  z-index: 1;
+  margin: 10px 0 0;
+}
+
+#boxcard div{
+  float: left;
+  width: 100px;
+  height: 100px;
+  margin: 3px;
+  padding: 5px;
+  border: 3px solid white;
+  cursor: pointer;
+  border-radius: 7px;
+  box-shadow: 0 1px 5px rgba(0,0,0,.5);
+  background: #93D6CB;
+  z-index: 2;
+}
+
+#boxcard div img {
+  display: none;
+  border-radius: 10px;
+  z-index: 3;
+}
+
+#boxbuttons {
+  text-align: center;
+  margin: 10px;
+  display: block;
+}
+
+#boxbuttons .button {
+  text-transform: uppercase;
+  background: #78BAA6;
+  padding: 5px 10px;
+  margin: 3px;
+  border-radius: 5px;
+  border-color: skyblue;
+  cursor: pointer;
+}
+
+#boxbuttons .button:hover {
+  background: #999;
+}
