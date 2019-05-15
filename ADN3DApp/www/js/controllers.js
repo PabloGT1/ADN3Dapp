@@ -50,7 +50,7 @@ angular.module('starter.controllers', [])
     }
   }
 
-  function ResetGame() {
+  $scope.ResetGame = function() {
     ShuffleImages();
     $(Source + " div img").hide();
     $(Source + " div").css("visibility", "visible");
