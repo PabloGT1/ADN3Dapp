@@ -9,10 +9,9 @@
 h1 {
 	font-family: arial black;
 	font-size: 25px;
-	color: #0E4237;
+	color: green;
   background-color: #ccd9ff;
   opacity: 0.6;
-	color: #05B26B;
 	text-align: center;
 }
 
@@ -20,10 +19,9 @@ h1 {
 h2 {
 	font-family: elephant;
 	font-size: 45px;
-	color: #3A8284;
+	color: blue;
   background-color: #ccd9ff;
   opacity: 0.9;
-	color: green;
   text-align: center;
 }
 
@@ -405,7 +403,6 @@ h3 {
 }
 
 /* Style Juego */
-
 #picbox {
   margin: 0px auto;
   width: 600px;
