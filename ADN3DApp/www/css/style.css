@@ -324,15 +324,15 @@ body {
   margin-left: auto;
   margin-right: auto;
   height: 400px;
-  width: 400px;
+  width: 300px;
 }
 
 .repro2 img {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height: 600px;
-  width: 400px;
+  height: 400px;
+  width: 300px;
 }
 
 /* Style Tabla Nutricional */
@@ -411,13 +411,16 @@ h3 {
 #boxcard {
   z-index: 1;
   margin: 10px 0 0;
+  width: 350px;
+  height: 450px;
+  text-align: center;
 }
 
 #boxcard div{
   display: inline-table;
   float: center;
-  width: 100px;
-  height: 100px;
+  width: 70px;
+  height: 70px;
   margin: 5px;
   padding: 5px;
   border: 4px solid white;
